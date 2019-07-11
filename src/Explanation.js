@@ -11,7 +11,7 @@ const Explanation = props => {
     <div className='explanation'>
       <button onClick={toggleOpen}>Show/Hide explanation</button>
       {
-        isOpen ? props.explanation : null
+        isOpen ? <p>{props.explanation}</p> : null
       }
     </div>
   );

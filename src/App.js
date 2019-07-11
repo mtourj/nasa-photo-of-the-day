@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <Media title={data.title} url={data.url} />
+      <Media title={data.title} hdurl={data.hdurl} url={data.url} />
       <Explanation explanation={data.explanation} />
     </div>
   );
